@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = 'eng'>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <head>
+        <script defer src="script.js"></script>
+        <script src="https://unpkg.com/topojson@3"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+        
+        
+        <!-- Milligram CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  
+
+         <!-- You CSS rules-->
+         <link rel="stylesheet" href="style.css">
+
+         <title>Lab 7 </title>
+
+    </head>
+
+    <h1>Airport Connections</h1>
+
+    <body>
+        <div style="display: flex; float: left; margin: 20px;">
+        <input style="margin: 10px;" type="radio" id="force" name="display" value="force" checked>
+            <label for="force">Force</label>
+            <input style="margin: 10px;" type="radio" id="map" name="display" value="map">
+            <label for="map">Map</label>
+            <div class="tooltip"></div></div>
+    
+         <div class="chart"></div>
+       
+      </body>
+</html>
